@@ -1,0 +1,23 @@
+name: weather_cli
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.10.2
+
+# Add regular dependencies here.
+dependencies:
+  args: ^2.7.0
+  chalkdart: ^3.0.5
+  cli_completion: ^0.5.1
+  equatable: ^2.0.8
+  http: ^1.6.0
+  io: ^1.0.5
+  stack_trace: ^1.12.1
+
+dev_dependencies:
+  lints: ^6.0.0
+
+executables:
+  weather_cli: 
